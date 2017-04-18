@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">PRD</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="materials_label">MATERI</string>
+    <string name="guidance_label">BIMBINGAN</string>
+    <string name="profile_label">PROFIL</string>
+    <string-array name="drawer_menu">
+        <item>Ganti Password</item>
+        <item>Keluar</item>
+    </string-array>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.pptik.ilham.prdoc.PhotoConfirmation"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/lablePeringatanBelumMengikutiCourse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="40dp"
+        android:text="Anda belum diterima sebagai mahasiswa atau dosen."
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAlignment="center"/>
+    <TextView
+        android:id="@+id/lableUnggahFoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="30dp"
+        android:text="Silahkan unggah foto atau scan kartu tanda mahasiswa (sebagai mahasiswa) atau pengajar anda (sebagai dosen). Setelah dikonfirmasi oleh administrator maka anda dapat mengikuti course yang tersedia."
+        android:textAlignment="center"/>
+    <Button
+        android:id="@+id/buttonUpload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginTop="15dp"
+        android:text="Pilih berkas"/>
+
+</LinearLayout>
