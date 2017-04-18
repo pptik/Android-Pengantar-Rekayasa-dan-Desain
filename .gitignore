@@ -38,7 +38,3 @@ captures/
 
 # Keystore files
 *.jks
-
-# Private files
-RestClientApp.java
-AndroidManifest.xml
